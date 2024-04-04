@@ -81,9 +81,14 @@ function correctSentence(text: string): string {
   return "";
 }
 
-function correctSentence(sentence: string): string {
-  if (sentence) {
-      return sentence.toLowerCase().replace(/\b\w/, (char) => char.toUpperCase());
-  }
-  return ""+ ".";
+function factorial(n: number): number {
+
+  let result = 1;
+  
+    for (var i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+
 }
+
