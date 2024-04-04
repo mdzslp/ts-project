@@ -1,0 +1,78 @@
+
+body {
+    background-color: rgb(48, 143, 180);
+    font-family:sans-serif;   
+       
+ }
+
+ .lamp_color{
+   
+   max-width: 330px;   
+   padding: 30px;
+   border-radius: 35%;
+   height: auto;
+   background-color: rgb(34, 45, 49);
+    
+ }
+ 
+h1 {
+   margin-left: 130px;
+}
+
+
+.back_color {
+   display:flex;
+   flex-direction: column;
+}
+
+.back_color div {
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+   margin-left: 90px;
+   border-radius: 50%;
+   background-color: #808080;
+   
+   
+   transition: all 0.6s linear; 
+	-webkit-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+}
+
+.back_color div :hover{
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+   margin-left: 90px;
+   border-radius: 50%;
+
+   -ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+
+}
+ 
+button {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: all 0.6s linear; 
+	-webkit-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+  
+}
+
+button :hover {
+   background-color:rgb(202, 18, 18);
+   -ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);;
+
+}

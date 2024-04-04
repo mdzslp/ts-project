@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(48, 143, 180);
+  font: sans-serif;
+}
+
+.lamp_color {
+
+  max-width: 170px;
+  padding: 30px;
+  border-radius: 15%;
+  background-color: rgb(34, 45, 49);
+}
+
+
+
+.back_color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back_color div {
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #808080;
+  transition: all 0.6s linear;
+}
+
+
+button {
+  height: 35px;
+  width: 73px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: rgb(34, 45, 49);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a473b;
+  color: rgb(255, 255, 255);
+}
